@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Lobster+Two&family=Luxurious+Roman&family=Roboto:ital,wght@0,100;0,400;0,500;1,100;1,300;1,400;1,500&display=swap');
+.navbar-brand{
+    font-size: 30px;
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.navbar-brand,.nav-link{
+    color:black;
+}
+.navbar-brand:hover{
+ color:black;
+}
+.nav-link{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family:lobster two;
+    font-weight: bold;
+}
+.nav-link:hover{
+    color:crimson !important;
+    transform: scale(1.3);
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+.navbar-nav{
+    margin-left: 15%;
+}
+.container-lg{
+    background-image:url("images/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border:3px solid rgb(231, 99, 125);
+    border-radius: 10px;
+}
+.home-img{
+    width:290px;
+    height:300px;
+    border:2px solid rgb(157, 222, 243);
+    border-radius: 50%;
+    margin-left: 10%;
+}
+.hello{
+    height:100px;
+    width:100px;
+}
+h3>span{
+    font-style: italic;
+    font-weight: bold;
+}
+.icon{
+    width:30px;
+    height:30px;
+    margin-top: 5%;
+    margin-left: 5%;
+} 
+h1>span{
+    background-color: crimson;
+    color:white;
+    text-align:center;
+    padding:5px 30px;
+    clip-path: polygon(100% 0,93% 50%,100% 99%,0% 100%,7% 50%,0% 0%);
+}
+.skill{
+    height:150px;
+    width:150px;
+}
+.card{
+    border:none;
+}
+.card-img-top:hover{
+    transform: scale(1.1);
+}
+.fa-envelope{
+    font-size:25px;
+}
+#footer{
+    background-color: rgb(104, 104, 104);
+    height:30px;
+}
+iframe{
+    width:500px;
+}
+.mail{
+    color:#198754;
+    font-size:25px;
+}
+.zomato,.grocery{
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+}
+.project{
+    width:500px;
+    height:300px;
+}
+@media screen and (max-width:1450px){
+    iframe{
+        width:550px;
+    }
+}
+@media screen and (max-width:1030px){
+    iframe{
+        width:450px;
+    }
+    .project{
+        width:400px;
+        height:200px;
+        margin-left: 10%;
+    }
+    .zomato,.grocery{
+        font-size: 25px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+@media screen and (max-width:800px){
+    .home-img{
+        width:250px;
+        height:260px;
+        margin-left: 8%;
+    }
+    iframe{
+        width:700px;
+    }
+    .project{
+        width:500px;
+        height:300px;
+        margin-left: 15%;
+    }
+
+}
+@media screen and (max-width:430px){
+    .card{
+        margin-left:45px;
+    }
+    .mail{
+        font-size:22px;
+        margin-top: 3px;
+    }
+    iframe{
+        width:400px;
+    }
+    .project{
+        width:350px;
+        height:200px;
+        margin-left: 20px;
+    }
+    .zomato,.grocery{
+        font-size: 23px;
+    }
+}
+@media screen and (max-width:380px){
+    .card{
+        margin-left:25px;
+    }
+    iframe{
+        width:350px;
+    }
+    .mail{
+        font-size:20px;
+        margin-top: 3px;
+    }
+    .project{
+        width:300px;
+        height:200px;
+        margin-left: 20px;
+    }
+    .zomato,.grocery{
+        font-size: 20px;
+    }
+    
+}
+@media screen and (max-width:330px){
+    .home-img{
+        width:190px;
+        height:200px;
+        margin-left: 5%;
+    }
+    iframe{
+        width:300px;
+    }
+    .mail{
+        font-size:17px;
+        margin-top: 3px;
+    }
+    #footer{
+        height:50px;
+    }
+    .card{
+        margin-left:0px;
+    }
+    .project{
+        width:270px;
+        height:200px;
+        margin-left: 20px;
+    }
+    .zomato,.grocery{
+        font-size: 18px;
+    }
+}
